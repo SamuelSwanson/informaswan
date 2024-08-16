@@ -3,7 +3,7 @@ import { LandingPageComponent } from './informaswan-pages/common/landing-page/la
 import { WorkoutExercisesComponent} from './informaswan-pages/athletics/workout-exercises/workout-exercises.component';
 
 export const routes: Routes = [
-    { path: '', redirectTo:'/landing-page', pathMatch: 'full'},
-    { path:'landing-page' ,  component: LandingPageComponent}, 
+    { path: '', redirectTo:'/informaswan', pathMatch: 'full'},
+    { path:'informaswan' ,  component: LandingPageComponent}, 
     { path:'workout-exercises', component: WorkoutExercisesComponent}
 ];

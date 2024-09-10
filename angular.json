@@ -16,6 +16,7 @@
             "outputPath": "docs/",
             "index": "index.html",
             "browser": "src/main.ts",
+            "baseHref": "/informaswan/",
             "polyfills": [
               "zone.js"
             ],
